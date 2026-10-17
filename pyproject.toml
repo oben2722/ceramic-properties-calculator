@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ceramic-properties-calculator"
+version = "0.1.0"
+description = "Ceramic membrane material science calculator"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pytest]
+addopts = "-q"
